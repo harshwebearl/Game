@@ -26,7 +26,7 @@ const googleAuth = async (req, res) => {
       gameName
     } = req.body;
 
-    if (!registeredID || !gameName) {
+    if (!registeredID || !email || !gameName) {
       return res.status(400).json({ message: "registeredID and gameName are required" });
     }
 
