@@ -7,7 +7,7 @@ import {
     deleteAttendance,
     getByDate,
     rangeOfDate,
-} from '../Controller/attendance.Controller.js';
+} from '../controller/attendance.Controller.js';
 import { protect } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
